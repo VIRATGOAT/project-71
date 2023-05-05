@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Vasant Valley School</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#campus_life">Campus Life</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#new">What's New</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+      </ul>
+    </div>
+</nav>
+
+<div class="announcement">
+  <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+    ***  Feel free to ask queries on ruveerkapur10@gmail.com  ***
+    </marquee>
+</div>
+
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/JtTO_y76Ato" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  
+<div class="container">
+	
+  <div class="page-header" id="campus_life">
+  		<h2 class="text-capitalize">Campus Life</h2>
+
+  <div class="row">
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="https://static.vasantvalley.org/wp-content/uploads/2022/10/19092041/24VVSdebateITcup_18102022_3-scaled.jpg">
+      <h4 class="text-capitalize"><kbd>school classroom</kbd></h4>
+      <hr >
+      <h5 class="text-success text-left text-capitalize" >VVS</h5>
+      <p class="text-muted text-left" >This is the school classroom</p>
+    </div>
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="https://www.vasantvalley.org/wp-content/uploads/2021/05/19-14.jpg">
+      <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+      <hr >
+      <h5 class="text-success text-left text-capitalize" >VVS</h5>
+      <p class="text-muted text-left" >This is the school library</p>
+    </div>
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="https://www.edustoke.com/assets/uploads-new/vasant-valley-school-1493979831-1.jpg">
+      <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+      <hr >
+      <h5 class="text-success text-left text-capitalize" >VVS</h5>
+      <p class="text-muted text-left" >This is the school auditorium.</p>
+    </div>
+  </div>
+</div>
+	<div class="page-header" id="achievements">
+  		<h2 class="text-capitalize">school achievements</h2>
+  </div>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1" >
+   Zone 20 Cricket <i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievement1" class="collapse">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+	  		<img src="https://static.vasantvalley.org/wp-content/uploads/2022/09/02155438/zone20u14_01092022.jpg" class="img-responsive img-thumbnail"> 
+	  </div>
+
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-success text-left text-capitalize">Won By Vasant Valley In 2022 
+      </h5>
+		  <p>The zone 20 is the competition which is in different sports. It involves schools from the 20th zone of delhi to participate in the competition.</p>
+	  </div>
+  </div>
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2" >
+   Arnav Goel Achievment<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievement2" class="collapse">
+	 
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+  		<img src="data:image/jpeg;base64,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" class="img-responsive img-thumbnail" >
+  	</div>
+
+  	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+      <h5 class="text-success text-left text-capitalize">Inter School Achievement
+      </h5>
+      <p>Arnav Goel - Class 10C has been selected to represent Delhi U-17 Boys team for the PEFI National Football Tournament, Noida (UP) from 1st April to 4th April 2021
+</p>
+  	</div>
+  </div>
+
+
+
+  <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3" >
+    Inter School Poetry Recitation Competition Competition<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievement3" class="collapse">
+    
+	 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+  		<img src="https://static.vasantvalley.org/wp-content/uploads/2022/09/04105528/BAISRC_1-scaled.jpg" class="img-responsive img-thumbnail" >
+  	</div>
+
+  	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+      <h5 class="text-success text-left text-capitalize">Won first price in inter school poetry recitation competition
+      </h5>
+      <p>19th Bro. Aloysius Inter School English Recitation Competition (BAISRC) was held at Mount St Mary School on Saturday, 27th August ’22. Vasant Valley School won the Overall Trophy of the English Recitation competition.</p>
+  	</div>
+  </div>
+
+
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+      <h2 class="text-capitalize ">What's New</h2>
+  </div>
+
+  <ul class="list-group">
+
+    <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li" >
+      <h4>New School Canteen</h4>
+      <img src="https://live.staticflickr.com/2110/2196260331_c6592e8dab_c.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+      <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >The food options and responsibilities to consider, canteens must be better organised and more efficient than they have been in the past. Online menus with photographs of the meals prepared, and detailed descriptions of their ingredients help both students and parents make the right nutritional choices. Each student or staff member who accesses the canteen could be provided with a School Canteen Account on the school website that keeps track of their previous meal choices and any dietary requirements they may have. Ordering online by ticking a box and paying for meals online can eliminate all the fuss of money handling, making it safer and less complicated for staff and students alike. Here again, diversity is the key.</p>
+     </li>
+
+    <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"  >
+     <h4>Implemented Online Attendance Management System</h4>
+     <img src="https://5.imimg.com/data5/ZA/SJ/QC/SELLER-7950336/rfid-smart-attendance-for-school-500x500.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+     <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >1. Accuracy
+Humans are prone to error, even if we provide them with supporting computational devices. Automated attendance management systems ensure accurate time records and minimize the inevitable and costly errors with manual data entry. This accurate data thereby helps to provide accurate performance and payroll data.
+<br>
+2. Economics
+Have you ever thought that attendance management systems could control costs? It saves money by putting an end to inaccurate time reporting, buddy punching, absenteeism, tardiness, time abuse, and overpayment. As a matter of fact, a study done by the Axsium Group found that large organizations save up to $1,600 per employee after implementing automated attendance management systems.
+<br>
+3. Productivity / Efficiency
+Monitoring and managing attendance manually can be a time-consuming, laborious, and expensive affair. It takes time to process paper sheets and time cards, create schedules, authorize leave and overtime, and create payroll manually. Free up precious administration time with an automated system that does it all for you, from keeping track of employee hours to automatically importing information into your payroll system. The time and effort saved combined with data accuracy helps in optimizing the use of resources which lead to increased productivity and improves profits. And many more like Visibility / Insights, Hassle Free Workflow Management, Flexibility, Integration / Configuration, Real-time tracking, Security, and Compliance
+</p>
+    </li>
+
+ 
+</ul>
+
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+      <h2 class="text-capitalize ">Our Alumni</h2>
+  </div>
+
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+    <img src="https://images.news18.com/ibnlive/uploads/2022/06/ranvbir.jpg" class="img-responsive">
+    <hr >
+    <p class="text-primary">Ranbir Kapoor</p>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="school_alumni1">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content" >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ranbir Kapoor</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://images.news18.com/ibnlive/uploads/2022/06/ranvbir.jpg" class="img-responsive img_modal">
+          <p class="p_modal">He is an Indian Actor known for his work in Hindi Language films.<br>
+          <a href="https://en.wikipedia.org/wiki/Ranbir_Kapoor"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni2">
+    <img src="https://st1.bollywoodlife.com/wp-content/uploads/2020/12/Katrina-Kaif6.jpg" class="img-responsive">
+    <hr >
+   <p class="text-primary">Katrina Kaif</p>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="school_alumni2">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content"  >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Katrina Kaif</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://st1.bollywoodlife.com/wp-content/uploads/2020/12/Katrina-Kaif6.jpg" class="img-responsive img_modal">
+          <p class="p_modal">Katrina Kaif is a British actress who works in Hindi-language films.<br>
+          <a href="https://en.wikipedia.org/wiki/Katrina_Kaif"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Mukesh_Ambani.jpg/200px-Mukesh_Ambani.jpg" class="img-responsive">
+    <hr >
+    <p class="text-primary">Mukesh Ambani</p>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="school_alumni3">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content"  >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mukesh Ambani</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Mukesh_Ambani.jpg/200px-Mukesh_Ambani.jpg" class="img-responsive img_modal">
+          <p class="p_modal">He is an Indian billionaire business magnate, and the chairman, managing director, and largest shareholder of Reliance Industries Ltd. <br>
+          <a href="https://en.wikipedia.org/wiki/Mukesh_Ambani"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni4">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpskaRUFZIt603-tdSETBPlO7FqIm_PVfzMfORQTR1uWsL98_1&usqp=CAU" class="img-responsive">
+    <hr >
+    <p class="text-primary">Rajdeep Sardesai</p>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="school_alumni4">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content"  >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Rajdeep Sardesai</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpskaRUFZIt603-tdSETBPlO7FqIm_PVfzMfORQTR1uWsL98_1&usqp=CAU" class="img-responsive img_modal">
+          <p class="p_modal">He is an Indian news anchor and author.<br>
+          <a href="https://en.wikipedia.org/wiki/Rajdeep_Sardesai"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+    <h2 class="text-capitalize ">Contact Us</h2>
+</div>
+
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.2086767437727!2d77.14169947621464!3d28.533446788572167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1c2dca9fdfe5%3A0xd8b5e5dc38264933!2sVasant%20Valley%20School!5e0!3m2!1sen!2sin!4v1683264130259!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+      <div id="details">
+        <img src="https://i.postimg.cc/RZMSc6hR/sp.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+        <h3>Principal Name: </h3>
+        <h4>Mr.Arun Kapur </h4>
+            <div class="contact_1" >
+               <a href="mailto:school@gmail.com?Subject=Hi">
+                   <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;ruveerkapur10@gmail.com</h5>
+                </a> 
+               <a href="#"> 
+                   <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;schoolId</h5>
+                </a> 
+                <a href="#"> 
+                  <h5><i class="fa fa-phone-square" ></i>&nbsp;&nbsp;9710133335</h5>
+               </a> 
+            </div>
+          </div>
+  </div>
+  <div id="footer"></div>
+
+</body>
+</html>
